@@ -1,0 +1,37 @@
+@media (max-width:1100px) and (min-width:988px) {
+    .main h3 {
+        font-size: 3.2rem;
+        font-weight: 600;
+    }
+
+    .main h3 small {
+        font-size: 2rem;
+    }
+
+    .main h6 {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        line-height: 1;
+        border-bottom: 3px solid rgba(233, 20, 109);
+        width: 25%;
+    }
+
+    .main .bt1 {
+        font-size: 1.2rem;
+        height: 55px;
+        width: 100px;
+        background-color: rgba(233, 20, 109);
+        color: #fff;
+        outline: none;
+        border: none;
+        font-weight: bold;
+        border-radius: 50px;
+    }
+
+    .main .bt1:hover {
+        background-color: rgb(246, 63, 13);
+        transition: 0.5s;
+    }
+}
+
+

@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Great+Vibes&family=Open+Sans:ital@1&family=Playfair+Display:ital@0;1&family=Tiro+Devanagari+Hindi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(230, 139, 154);
+    border-radius: 6px;
+
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.nav-link {
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.nav-link:hover {
+    color: white;
+    background: black;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* main section  css start  */
+.main {
+    background-image: url('../img/lum3n--RBuQ2PK_L8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+}
+
+
+.main h3 {
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+
+.main h3 small {
+    font-size: 2rem;
+}
+
+.main h6 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid rgba(233, 20, 109);
+    width: 25%;
+}
+
+.main .bt1 {
+    font-size: 1.2rem;
+    height: 45px;
+    width: 110px;
+    background-color: rgba(233, 20, 109);
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.main .bt1:hover {
+    background-color: rgb(246, 63, 13);
+    transition: 0.5s;
+}
+
+/* main section css end */
+
+.about img {
+    box-shadow: 10px 11px 0px -3px rgba(217, 161, 177, 0.75);
+    -webkit-box-shadow: 10px 11px 0px -3px rgba(217, 161, 177, 0.75);
+    -moz-box-shadow: 10px 11px 0px -3px rgba(217, 161, 177, 0.75);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.progress {
+    background-color: rgb(245, 198, 198);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+
+}
+
+.pro-value1 {
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.progress p {
+    color: white;
+    padding: 5px;
+}
+
+.pro-value2 {
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.pro-value3 {
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.pro-value4 {
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+@keyframes load1 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 95%;
+
+    }
+}
+
+@keyframes load2 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+
+    }
+}
+
+@keyframes load3 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 90%;
+
+    }
+}
+
+@keyframes load4 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 85%;
+
+    }
+}
+
+.btn1 {
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+.btn1:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+
+}
+
+
+.card {
+    border: none;
+    outline: none;
+    box-shadow: 10px 11px 0px -5px rgba(241, 137, 105, 0.75);
+    -webkit-box-shadow: 10px 11px 0px -5px rgba(232, 182, 182, 0.75);
+    -moz-box-shadow: 10px 11px 0px -5px rgba(232, 182, 182, 0.75);
+}
+
+.card img:hover {
+    cursor: pointer;
+    filter: grayscale(10%) brightness(54%) saturate(134%);
+    -webkit-filter: grayscale(10%) brightness(54%) saturate(134%);
+    -moz-filter: grayscale(10%) brightness(54%) saturate(134%);
+    transition: 0.5s;
+   
+   
+}
+
+.card p {
+    color: gray;
+}
+
+.circle {
+    height: 65px;
+    width: 65px;
+    background-color: lightgray;
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.card:hover .circle {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.control ul li {
+    list-style: none;
+    background-color: black;
+    padding: 5px 15px;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 2px;
+
+}
+
+.item {
+    position: relative;
+}
+
+.item:hover {
+    cursor: pointer;
+    filter: grayscale(10%) brightness(54%) saturate(134%);
+    -webkit-filter: grayscale(10%) brightness(54%) saturate(134%);
+    -moz-filter: grayscale(10%) brightness(54%) saturate(134%);
+    transition: 0.5s;
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+
+.circle:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn2 {
+    height: 40px;
+    width: 90px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+.btn2:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+
+}
+
+footer {
+    background-color: rgb(58, 52, 52);
+    color: lightgray;
+}
+
